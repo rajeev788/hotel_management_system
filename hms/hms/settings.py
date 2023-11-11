@@ -37,11 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
     'frontdesk.apps.FrontdeskConfig',
     'restaurant.apps.RestaurantConfig',
     'management.apps.ManagementConfig',
     'accounting.apps.AccountingConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [

@@ -7,4 +7,4 @@ class menu(models.Model):
 class food(models.Model):
     name=models.CharField(max_length=300)
     description =models.CharField(max_length=300)
-    menu=models.ForeignKey(menu,on_delete=models.SET_NULL,null=True) gg
+    menu=models.ForeignKey(menu,on_delete=models.SET_NULL,null=True) 
