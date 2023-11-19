@@ -8,4 +8,4 @@ class InvoiceSerializer(serializers.ModelSerializer):
 class PayementSerializer(serializers.ModelSerializer):
     class Meta:
         fields='__all__'
-        model=Payment
+        model=Payment 
